@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0" />
+    <title>Jujutsu Kaisen</title>
+<style>
+  label {
+      color: #fff;
+  }
+
+
+
+body {
+    background-image: url(file:///D:/Users/Kaylan/Documents/GitHub/labs/Coursework%202/multimedia/background.jpg);
+}
+ul.top-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    padding: 9px;
+}
+
+ul.top-nav li {
+    display: inline-block;
+}
+ul.top-nav {
+    background: #ffeb3b;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+</style>
+
+  </head>
+  <body>
+
+
+<ul class="top-nav">
+<li class="home"><a class="Home"href="file:///D:/Users/Kaylan/Documents/GitHub/labs/Coursework%202/main.html">Home</a></li>
+<li class="home"><a class="real-life-locations" href="file:///D:/Users/Kaylan/Documents/GitHub/labs/Coursework%202/real-life-locations.html">Real Life Locations</a></li>
+<li class="home"><a class="contact-us" href="file:///D:/Users/Kaylan/Documents/GitHub/labs/Coursework%202/contact.html">Contact</a></li>
+</ul>
+
+
+
+
+
+<h1 style="font-size: 23px;  color: #fff; text-align: center;">Contact Us</h1>
+<br />
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="UK">UK</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+
+</body>
+</html>
